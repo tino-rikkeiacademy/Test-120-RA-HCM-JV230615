@@ -15,6 +15,8 @@ html {
     width: 420px;
    
 }
+
+/* Header */
 .header {
     position: relative;
     background-image: url(../images/beach3.jpg);
@@ -31,6 +33,7 @@ html {
     background-color: rgb(218, 172, 51, 0.8);
     width: 320px;
 }
+/* End header */
 
 /* Main */
 .main {
