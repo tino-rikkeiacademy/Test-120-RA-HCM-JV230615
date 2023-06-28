@@ -1,0 +1,65 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Canh lề trái phải */
+.container{
+    width: 710px;
+    margin: 0 auto;
+}
+
+/* Header Area */
+.header{
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.header__title{
+    font-size: 28px;
+    font-weight: 900;
+    background-color: rgb(212, 166, 54, 0.7);
+    width: 450px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+}
+
+.header__title__paragraph{
+    margin-left: 10px;
+}
+
+.header__image{
+    width: 710px;
+    height: 352px;
+}
+/* End Header Area */
+
+
+
+/* Body Area */
+main{
+    margin-bottom: 50px;
+}
+section{
+    width: 670px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.item{
+    font-family: Arial;
+    width: 100%;
+    border-top: 6px solid #fc9b17;
+}
+
+.item__image{
+    width: 100%;
+}
+/* End Body Area */
