@@ -1,0 +1,19 @@
+.body--h1{
+    color: orange; font-size: 30px;
+    border-style: double;
+    text-align: center
+    
+}
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: 80px;
+    color:rgb(158, 0, 13)
+
+    
+}
+.body--h2{
+    background-color:rgb(254, 102,1);
+    color: aliceblue;
+   text-align: right;
+}
