@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .main-beach{
+        width: 600px;
+        height: 200px;
+        position: relative;
+    }
+    .main-beach img{
+        width:600px;
+        height:200px;
+    }
+    .main-beach-content{
+        width: 400px;
+        height: 60px;
+        background-color: #F9C848;
+        font-size: 20px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .main-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    img{
+        width: 280px;
+        height: 150px;
+        border-top: 5px solid #F9C848;
+    }
+</style>
+<body>
+    <!-- Body Area -->
+    <div class="container">
+        <div class="main-beach">
+            <img src="./css-e.exams.opt2/resources/beach3.jpg" alt="" style="border-top:none">
+            <div class="main-beach-content">
+                4 Good Reasons <br>
+                For travelling with us
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-vacation">
+                <div class="main-vacation-img">
+                    <img src="./css-e.exams.opt2/resources/cellphone.jpg" alt="">
+                </div>
+                <div class="main-vacation-content">
+                    <h3>Smart Vacation</h3>
+                    <span>Full vacation control from your cellphone.</span>
+                </div>
+            </div>
+            <div class="main-superoffers">
+                <div main-superoffers class="img">
+                    <img src="./css-e.exams.opt2/resources/sealions.jpg" alt="">
+                </div>
+                <div class="main-superoffers-content">
+                    <h3>Super Offers</h3>
+                    <span>Up to 50% offers. Always 25% students offers.</span>
+                </div>
+            </div>
+            <div class="main-car">
+                <div class="main-car-img">
+                    <img src="./css-e.exams.opt2/resources/truck.jpg" alt="">
+                </div>
+                <div class="main-car-content">
+                    <h3>Car Rental included</h3>
+                    <span>Wherever you travel our car rental is included.</span>
+                </div>
+            </div>
+            <div class="main-dreams">
+                <div class="main-dreams-img">
+                    <img src="./css-e.exams.opt2/resources/nowornever.jpg" alt="">
+                </div>
+                <div class="main-dreams-content">
+                    <h3>Realize Your Dreams</h3>
+                    <span>Don't wait until it is too late.</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Body End -->
+</body>
+</html>
