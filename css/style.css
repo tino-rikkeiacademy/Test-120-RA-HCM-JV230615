@@ -21,18 +21,18 @@ body {
 .banner {
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 .banner__img {
     display: block;
     width: 90%;
     margin: 0 auto;
-    position: relative;
 }
 
 .banner__text {
     position: absolute;
-    left: 569px;
+    left: 43px;
     top: 235px;
     width: 499px;
     height: 92px;
