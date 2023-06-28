@@ -48,7 +48,16 @@ img{
 }
 .body_box{
     border-top: 5px solid #eb951d;
-    
+}
+
+.body_boxtwo-wordtwo{
+    font-size: 20px;
+}
+.body_boxthree-wordtwo{
+    font-size: 20px;
+}
+.body_boxfour-wordtwo{
+    font-size: 20px;
 }
 
 
