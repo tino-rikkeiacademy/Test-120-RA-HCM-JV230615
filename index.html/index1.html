@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MODULE 01-- HTML -- CS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .bodydiv--cha {
+        background-size: cover;
+        height: 400px;
+        background-image: url(../image/beach3.jpg);
+      }
+      .bodydiv--con {
+        background-color: rgba(229, 186, 66, 0.5);
+        width: 100%;
+        position: relative;
+        top: 180px;
+        background-image: url(../image/beach3.jpg);
+        grid-column: 1 / 3;
+        background-size: cover;
+      }
+      
+      
+      .bodydiv {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 20px;
+      }
+      .div--con{
+        background-color: #ffff;
+        padding-top: 5px;
+        width: 100%;
+        justify-content: center;
+        padding: 30px;
+      }
+    </style>
+    <!-- headend -->
+  </head>
+  <!-- bodyarea -->
+  <body>
+    <!-- divarea -->
+   
+    <div class="bodydiv">
+        <div class="bodydiv--con">
+            
+            <h1>
+                
+              4 Good Reasons <br />
+              For traveling with us
+            </h1>
+          </div>
+      <div>
+        <img src="../image/cellphone.jpg" alt="" />
+        <div class="div--con">
+          
+          <h2>Smart Vacation</h2>
+          <p>Full vacation control form your cell phone</p>
+        </div>
+      </div>
+      <div> <img src="../image/nowornever.jpg" alt="" />
+        <div class="div--con">
+         
+          <h2>Super Offers</h2>
+          <p>Up to 50% offer . Alwway 25% student offer</p>
+        </div>
+      </div>
+      <div >
+        <img src="../image/sealions.jpg" alt="" />
+        <div class="div--con">
+        
+          <h2>Car Rental Included</h2>
+          <p>wherever you travel uot car rental is inclued</p>
+        </div>
+      </div>
+      <div >
+        <img src="../image/truck.jpg" alt="" />
+        <div class="div--con">
+         
+          <h2>Realize Your Dreams</h2>
+          <p>Don't wait unti it is late</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
